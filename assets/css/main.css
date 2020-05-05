@@ -1,0 +1,337 @@
+body,
+html {
+  overflow-x: hidden;
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+}
+.noto-font {
+  font-family: "Noto Serif", serif !important;
+}
+ul,
+li {
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+header {
+  box-shadow: 0px 0px 25px #000;
+  -moz-box-shadow: 0px 0px 25px #000;
+  -webkit-box-shadow: 0px 0px 25px #000;
+}
+header.homepage-header {
+  height: 171px;
+  background: url("../images/topBg.jpg") no-repeat center center;
+}
+a:hover {
+  text-decoration: none;
+}
+header.homepage-header img.logo {
+  width: 500px;
+}
+header.homepage-header .header-main-wrapper {
+  height: 171px;
+}
+
+.language-selector {
+  right: 10px;
+  top: 10px;
+}
+.language-selector a,
+.language-selector a:visited {
+  color: #e4b6a4;
+}
+.plain-divider {
+  width: 2px;
+  height: 20px;
+  background: white;
+  margin: 0 10px;
+}
+.header-contact-details {
+  bottom: 10px;
+  right: 10px;
+}
+.header-contact-details a,
+.header-contact-details a:visited {
+  font-size: 25px;
+  color: #e4b6a4;
+}
+.homepage-section {
+  background: url("../images/bg.png") no-repeat center center;
+  background-size: cover;
+}
+.homepage-navigation {
+  width: 400px;
+  margin: 70px auto;
+  display: inline-table;
+}
+.homepage-navigation a {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #dadada;
+  text-align: center;
+  font-size: 30px;
+}
+
+footer.homepage-footer {
+  text-align: center;
+  background: #111111;
+  padding: 10px 0;
+  opacity: 1 !important;
+  color: white;
+}
+
+footer.homepage-footer .secondary-logo img {
+  width: 120px;
+}
+
+.copyright-text .copyright-backlink {
+  color: #e4b6a4;
+}
+.footer-social-media img {
+  width: 24px;
+}
+
+header.innerpage-header {
+  height: 105px;
+  background: url("../images/topBg.jpg") no-repeat center center;
+}
+header.innerpage-header .header-main-wrapper {
+  height: 105px;
+}
+header.innerpage-header img.logo {
+  width: auto;
+  height: 80px;
+}
+.inner-page-navgation .menu-item a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 0.7px;
+}
+
+.inner-page-navgation .menu-item a.active {
+  color: #e4b6a4;
+}
+.copyright-text.inner-page-footer {
+  font-size: 15px;
+  color: #999;
+}
+.innerpage-section {
+  background: #111111;
+}
+.single-listing img.thumbnail {
+  height: 365px;
+  object-fit: cover;
+  width: 33.33%;
+}
+.listing-divider {
+  text-align: center;
+  padding: 20px;
+}
+.listing-divider img {
+  height: 52px;
+  width: auto;
+}
+
+.top-strap,
+.bottom-strap {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  text-transform: uppercase;
+  padding: 0 25px;
+  font-size: 18px;
+}
+.top-strap {
+  top: 0;
+}
+.bottom-strap {
+  bottom: 0;
+}
+.listing-strap-price {
+  font-weight: bold;
+}
+
+.onelisting img {
+  width: 100%;
+  height: unset;
+}
+p.listing-strap-specs {
+  padding: 0 20px;
+}
+.property-gallery img {
+  margin-bottom: 15px;
+}
+.main-content {
+  background: #111111;
+}
+.property-details {
+  width: 85%;
+  margin: 25px auto 70px;
+  color: #fff;
+}
+h1.property-main-title {
+  font-size: 48px;
+  line-height: 54px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+h3.property-main-address {
+  font-size: 30px;
+  text-transform: none;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.scroll-to-section-nav a {
+  color: #fff;
+  padding: 0 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.secondary-single-listing-buttons {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.secondary-single-listing-buttons a {
+  color: #ffffff;
+  border: 4px solid white;
+  text-transform: uppercase;
+  padding: 9px 0;
+  width: 24%;
+  text-align: center;
+}
+
+.property-description {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.disclaminer {
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.spec-title,
+.spec-value {
+  width: 50%;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+p.spec-title {
+  text-align: left;
+  color: #aaa;
+  font-weight: 400;
+}
+.modal-lg {
+  max-width: 32%;
+}
+.modal-content {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+  padding-bottom: 0px;
+}
+#exampleModalCenter ul {
+  margin-bottom: 1rem;
+  padding-left: 40px;
+}
+.f-container-1 h4 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.modal-bot a {
+  font-size: 14px;
+  line-height: 16px;
+  color: grey;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.f-container-1 h5 {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.f-container-1 input[type="text"],
+.f-container-1 input[type="password"],
+.f-container-1 input[type="email"],
+.f-container-1 textarea,
+.f-container-1 select {
+  border: 1px solid #ccc;
+  padding: 6px 4px;
+  outline: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  margin: 0;
+  margin-bottom: 0px;
+  width: 210px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  background: #fff;
+}
+
+.f-container-1 .button,
+.f-container-1 input[type="submit"],
+.f-container-1 input[type="reset"] .f-container-1,
+input[type="button"] {
+  background: #eee;
+  border: 1px solid #aaa;
+  border-top-color: rgb(170, 170, 170);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-left-color: rgb(170, 170, 170);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #444;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  margin-bottom: 20px;
+  line-height: normal;
+  padding: 8px 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.f-container-1 h6 {
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+img.sold-tag {
+  width: 170px;
+  right: 0;
+  top: 0;
+}
